@@ -1,0 +1,9 @@
+version: '3.1'
+services:
+  web1:
+    image: ngnix:apline
+    restart: always
+    ports:
+      - 90:80
+    volumes:
+      - ./files:/usr/share/nginx/html
