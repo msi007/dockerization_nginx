@@ -1,7 +1,7 @@
 version: '3.1'
 services:
   web1:
-    image: ngnix:apline
+    image: nginx:apline
     restart: always
     ports:
       - 90:80
